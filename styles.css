@@ -27,11 +27,11 @@ model-viewer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
   cursor: pointer;
-  height: 24px;
-  padding: 8px;
+  height: 32px;
+  padding: 20px;
   position: relative;
   transition: opacity 0.3s;
-  width: 24px;
+  width: 32px;
 }
 
 .Hotspot:not([data-visible]) {
@@ -62,12 +62,12 @@ model-viewer {
   color: rgba(0, 0, 0, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   left: calc(100% + 1em);
   max-width: 128px;
   overflow-wrap: break-word;
-  padding: 0.5em 1em;
+  padding: 0.4em 1em;
   position: absolute;
   top: 50%;
   width: max-content;
@@ -121,7 +121,7 @@ model-viewer {
   transform: translateX(-50%);
   white-space: nowrap;
   bottom: 16px;
-  padding: 0px 16px 0px 40px;
+  padding: 0px 16px 0px 32px;
   font-family: Roboto Regular, Helvetica Neue, sans-serif;
   font-size: 14px;
   color:#4285f4;
