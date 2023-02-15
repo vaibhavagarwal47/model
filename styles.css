@@ -14,8 +14,8 @@ body {
 }
 
 model-viewer {
-  width: 896px;
-  height: 414px;
+  width: 100%;
+  height: 100%;
   background-color: transparent !important;
   overflow: hidden;
 }
